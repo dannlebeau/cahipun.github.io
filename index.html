@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dann LeBeau">
+    <meta name="description" content="Juego del Cachipun">
+    <meta name="keywords" content="cachipun, juego, piedra, papel, tijera">
+    <!--The own the this page web is Dann LaBeau-->
+    <title>Cachipún con NES.css</title>
+    <link rel="stylesheet" href="https://unpkg.com/nes.css/css/nes.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container nes-container with-title">
+        <h1 class="title nes-text is-primary">Cachipún con NES.css</h1>
+        <div class="content">
+            <p>¡Bienvenido al juego del cachipún! ¿Cuántas veces deseas jugar contra la computadora?</p>
+            <input type="number" id="vecesJugar" class="nes-input" placeholder="Ingrese un número">
+            <button onclick="jugarCachipun()" class="nes-btn is-primary">Jugar</button>
+        </div>
+    </div>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
